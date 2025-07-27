@@ -12,7 +12,7 @@ ToN Sign by MinnieFops!
 
 - drag the "ToN Sign" prefab on to your avatar (located in Assets / MinnieFops / ToN Sign / ToN Sign.prefab)
 
-- VRCFury will do the rest upon building your avatar.
+- VRCFury (or ModularAvatar) will do the rest upon building your avatar.
 
 - Inside of the ToN Save Manager settings menu, make sure you enable "Send OSC Parameters"
 
