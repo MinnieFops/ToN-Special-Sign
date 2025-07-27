@@ -49,7 +49,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
   m_FloatCurves:
   - serializedVersion: 2
     curve:
@@ -58,17 +58,17 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
         weightedMode: 0
         inWeight: 0
         outWeight: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._DecalBlendAlpha
-    path: ToN Sign/Indicator
+    attribute: m_Enabled
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -89,7 +89,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._DecalBlendAlpha1
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -110,7 +110,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.r
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -131,7 +131,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.g
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -152,7 +152,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.b
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -173,7 +173,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.a
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
+    classID: 23
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DecalBlendAlpha
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -184,7 +205,7 @@ AnimationClip:
       value: {fileID: -8372467203595021242, guid: 44528f2e52589de48a3e92da01226ded,
         type: 3}
     attribute: m_Mesh
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 33
     script: {fileID: 0}
     flags: 2
@@ -196,7 +217,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
       attribute: 3
       script: {fileID: 0}
       typeID: 4
@@ -205,7 +226,16 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
+      attribute: 3305885265
+      script: {fileID: 0}
+      typeID: 23
+      customType: 0
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1777750590
       attribute: 3757223753
       script: {fileID: 0}
       typeID: 33
@@ -214,16 +244,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1279081357
-      attribute: 2400000300
-      script: {fileID: 0}
-      typeID: 23
-      customType: 22
-      isPPtrCurve: 0
-      isIntCurve: 0
-      isSerializeReferenceCurve: 0
-    - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
       attribute: 2174455373
       script: {fileID: 0}
       typeID: 23
@@ -232,7 +253,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
       attribute: 1303350129
       script: {fileID: 0}
       typeID: 23
@@ -241,7 +262,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
       attribute: 1571785585
       script: {fileID: 0}
       typeID: 23
@@ -250,7 +271,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
       attribute: 1840221041
       script: {fileID: 0}
       typeID: 23
@@ -259,8 +280,17 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     - serializedVersion: 2
-      path: 1279081357
+      path: 1777750590
       attribute: 2108656497
+      script: {fileID: 0}
+      typeID: 23
+      customType: 22
+      isPPtrCurve: 0
+      isIntCurve: 0
+      isSerializeReferenceCurve: 0
+    - serializedVersion: 2
+      path: 1777750590
+      attribute: 2400000300
       script: {fileID: 0}
       typeID: 23
       customType: 22
@@ -296,6 +326,48 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 1
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_Enabled
+    path: ToN Sign (ModularAvatar)/Indicator
+    classID: 23
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DecalBlendAlpha1
+    path: ToN Sign (ModularAvatar)/Indicator
+    classID: 23
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: 0.2
         inSlope: 0
         outSlope: 0
@@ -325,7 +397,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.x
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -364,7 +436,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.y
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -403,7 +475,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalScale.z
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -423,50 +495,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: material._DecalBlendAlpha
-    path: ToN Sign/Indicator
-    classID: 23
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: material._DecalBlendAlpha1
-    path: ToN Sign/Indicator
-    classID: 23
-    script: {fileID: 0}
-    flags: 0
-  - serializedVersion: 2
-    curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 136
-        weightedMode: 0
-        inWeight: 0
-        outWeight: 0
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
     attribute: material._Color.r
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -487,7 +517,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.g
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -508,7 +538,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.b
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0
@@ -529,7 +559,28 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: material._Color.a
-    path: ToN Sign/Indicator
+    path: ToN Sign (ModularAvatar)/Indicator
+    classID: 23
+    script: {fileID: 0}
+    flags: 0
+  - serializedVersion: 2
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: material._DecalBlendAlpha
+    path: ToN Sign (ModularAvatar)/Indicator
     classID: 23
     script: {fileID: 0}
     flags: 0

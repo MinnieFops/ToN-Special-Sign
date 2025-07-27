@@ -5,7 +5,7 @@ ToN Sign by MinnieFops!
 
 # Requirements:
 
-- VRCFury
+- VRCFury (or ModularAvatar)
 - ToN Save Manager
 
 # How to use/install:
