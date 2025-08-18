@@ -40,7 +40,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2881934155538170966}
-  m_Mesh: {fileID: 1789917197780308723, guid: 44528f2e52589de48a3e92da01226ded, type: 3}
+  m_Mesh: {fileID: 0}
 --- !u!23 &4110081047052295612
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -358,7 +358,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1241.0
+  vrcfuryVersion: 1.1248.0
   somethingIsBroken: 0
   config:
     features: []
@@ -448,7 +448,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1241.0
+  vrcfuryVersion: 1.1248.0
   somethingIsBroken: 0
   config:
     features: []
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 3
   unityVersion: 2022.3.22f1
-  vrcfuryVersion: 1.1241.0
+  vrcfuryVersion: 1.1248.0
   somethingIsBroken: 0
   config:
     features: []
